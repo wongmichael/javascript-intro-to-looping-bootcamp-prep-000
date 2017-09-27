@@ -8,3 +8,15 @@ function forLoop(arr){
   }
   return arr
 }
+function whileLoop(i){
+  while (i>0){
+    console.log(--i)
+  }
+  return 'done'
+}
+function doWhileLoop(arr){
+  do{
+    arr.pop()
+  } while (arr.length>0 || (Math.random()>=0.5) )
+  return arr
+}
